@@ -9,3 +9,6 @@ class TestAlbum(unittest.TestCase):
     def test_album_has_title(self):
         self.assertEqual("Graduation", self.album.title)
     
+    def test_album_has_genre(self):
+        self.assertEqual("Hip-Hop", self.album.genre)
+    
