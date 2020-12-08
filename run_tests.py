@@ -1,7 +1,8 @@
 import unittest
 
 from tests.album_tests import TestAlbum
-from test.artist_tests import TestArtist
+from tests.artist_tests import TestArtist
 
-if __name__ == '__name__':
+
+if __name__ == '__main__':
     unittest.main()
