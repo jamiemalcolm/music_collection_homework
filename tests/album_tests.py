@@ -12,3 +12,6 @@ class TestAlbum(unittest.TestCase):
     def test_album_has_genre(self):
         self.assertEqual("Hip-Hop", self.album.genre)
     
+
+    def test_album_has_artist(self):
+        self.assertEqual("Kanye West", self.album.artist)
